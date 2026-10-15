@@ -1,0 +1,815 @@
+{
+  "organizations": [
+    {
+      "id": "O_1",
+      "name": "Red Nacional de Tiendas"
+    }
+  ],
+  "networks": [
+    {
+      "id": "N_101",
+      "name": "Tienda 101 Centro"
+    },
+    {
+      "id": "N_102",
+      "name": "Tienda 102 Norte"
+    },
+    {
+      "id": "N_103",
+      "name": "Tienda 103 Sur"
+    },
+    {
+      "id": "N_104",
+      "name": "Tienda 104 Oriente"
+    },
+    {
+      "id": "N_105",
+      "name": "Tienda 105 Poniente"
+    },
+    {
+      "id": "N_106",
+      "name": "Tienda 106 Reforma"
+    },
+    {
+      "id": "N_107",
+      "name": "Tienda 107 Satelite"
+    },
+    {
+      "id": "N_108",
+      "name": "Tienda 108 Alameda"
+    },
+    {
+      "id": "N_109",
+      "name": "Tienda 109 Lomas"
+    },
+    {
+      "id": "N_110",
+      "name": "Tienda 110 Valle"
+    },
+    {
+      "id": "N_111",
+      "name": "Tienda 111 Insurgentes"
+    },
+    {
+      "id": "N_112",
+      "name": "Tienda 112 Pedregal"
+    }
+  ],
+  "devices": [
+    {
+      "serial": "Q2LW-0101-0001",
+      "name": "Tienda 101 Centro",
+      "model": "MX67",
+      "networkId": "N_101",
+      "productType": "appliance"
+    },
+    {
+      "serial": "Q2LW-0102-0001",
+      "name": "Tienda 102 Norte",
+      "model": "MX67",
+      "networkId": "N_102",
+      "productType": "appliance"
+    },
+    {
+      "serial": "Q2LW-0103-0001",
+      "name": "Tienda 103 Sur",
+      "model": "MX67",
+      "networkId": "N_103",
+      "productType": "appliance"
+    },
+    {
+      "serial": "Q2LW-0104-0001",
+      "name": "Tienda 104 Oriente",
+      "model": "MX67",
+      "networkId": "N_104",
+      "productType": "appliance"
+    },
+    {
+      "serial": "Q2LW-0105-0001",
+      "name": "Tienda 105 Poniente",
+      "model": "MX67",
+      "networkId": "N_105",
+      "productType": "appliance"
+    },
+    {
+      "serial": "Q2LW-0106-0001",
+      "name": "Tienda 106 Reforma",
+      "model": "MX67",
+      "networkId": "N_106",
+      "productType": "appliance"
+    },
+    {
+      "serial": "Q2LW-0107-0001",
+      "name": "Tienda 107 Satelite",
+      "model": "MX67",
+      "networkId": "N_107",
+      "productType": "appliance"
+    },
+    {
+      "serial": "Q2LW-0108-0001",
+      "name": "Tienda 108 Alameda",
+      "model": "MX67",
+      "networkId": "N_108",
+      "productType": "appliance"
+    },
+    {
+      "serial": "Q2LW-0109-0001",
+      "name": "Tienda 109 Lomas",
+      "model": "MX67",
+      "networkId": "N_109",
+      "productType": "appliance"
+    },
+    {
+      "serial": "Q2LW-0110-0001",
+      "name": "Tienda 110 Valle",
+      "model": "MX67",
+      "networkId": "N_110",
+      "productType": "appliance"
+    },
+    {
+      "serial": "Q2LW-0111-0001",
+      "name": "Tienda 111 Insurgentes",
+      "model": "MX67",
+      "networkId": "N_111",
+      "productType": "appliance"
+    },
+    {
+      "serial": "Q2LW-0112-0001",
+      "name": "Tienda 112 Pedregal",
+      "model": "MX67",
+      "networkId": "N_112",
+      "productType": "appliance"
+    }
+  ],
+  "availabilities": [
+    {
+      "serial": "Q2LW-0101-0001",
+      "status": "offline",
+      "productType": "appliance",
+      "network": {
+        "id": "N_101"
+      }
+    },
+    {
+      "serial": "Q2LW-0102-0001",
+      "status": "online",
+      "productType": "appliance",
+      "network": {
+        "id": "N_102"
+      }
+    },
+    {
+      "serial": "Q2LW-0103-0001",
+      "status": "online",
+      "productType": "appliance",
+      "network": {
+        "id": "N_103"
+      }
+    },
+    {
+      "serial": "Q2LW-0104-0001",
+      "status": "online",
+      "productType": "appliance",
+      "network": {
+        "id": "N_104"
+      }
+    },
+    {
+      "serial": "Q2LW-0105-0001",
+      "status": "online",
+      "productType": "appliance",
+      "network": {
+        "id": "N_105"
+      }
+    },
+    {
+      "serial": "Q2LW-0106-0001",
+      "status": "online",
+      "productType": "appliance",
+      "network": {
+        "id": "N_106"
+      }
+    },
+    {
+      "serial": "Q2LW-0107-0001",
+      "status": "alerting",
+      "productType": "appliance",
+      "network": {
+        "id": "N_107"
+      }
+    },
+    {
+      "serial": "Q2LW-0108-0001",
+      "status": "online",
+      "productType": "appliance",
+      "network": {
+        "id": "N_108"
+      }
+    },
+    {
+      "serial": "Q2LW-0109-0001",
+      "status": "online",
+      "productType": "appliance",
+      "network": {
+        "id": "N_109"
+      }
+    },
+    {
+      "serial": "Q2LW-0110-0001",
+      "status": "online",
+      "productType": "appliance",
+      "network": {
+        "id": "N_110"
+      }
+    },
+    {
+      "serial": "Q2LW-0111-0001",
+      "status": "online",
+      "productType": "appliance",
+      "network": {
+        "id": "N_111"
+      }
+    },
+    {
+      "serial": "Q2LW-0112-0001",
+      "status": "online",
+      "productType": "appliance",
+      "network": {
+        "id": "N_112"
+      }
+    }
+  ],
+  "uplinkStatuses": [
+    {
+      "networkId": "N_101",
+      "serial": "Q2LW-0101-0001",
+      "uplinks": [
+        {
+          "interface": "wan1",
+          "status": "failed",
+          "ip": null
+        },
+        {
+          "interface": "wan2",
+          "status": "not connected",
+          "ip": null
+        }
+      ]
+    },
+    {
+      "networkId": "N_102",
+      "serial": "Q2LW-0102-0001",
+      "uplinks": [
+        {
+          "interface": "wan1",
+          "status": "failed",
+          "ip": null
+        },
+        {
+          "interface": "wan2",
+          "status": "active",
+          "ip": "10.2.102.2"
+        }
+      ]
+    },
+    {
+      "networkId": "N_103",
+      "serial": "Q2LW-0103-0001",
+      "uplinks": [
+        {
+          "interface": "wan1",
+          "status": "active",
+          "ip": "10.1.103.2"
+        },
+        {
+          "interface": "wan2",
+          "status": "ready",
+          "ip": "10.2.103.2"
+        }
+      ]
+    },
+    {
+      "networkId": "N_104",
+      "serial": "Q2LW-0104-0001",
+      "uplinks": [
+        {
+          "interface": "wan1",
+          "status": "active",
+          "ip": "10.1.104.2"
+        },
+        {
+          "interface": "wan2",
+          "status": "ready",
+          "ip": "10.2.104.2"
+        }
+      ]
+    },
+    {
+      "networkId": "N_105",
+      "serial": "Q2LW-0105-0001",
+      "uplinks": [
+        {
+          "interface": "wan1",
+          "status": "active",
+          "ip": "10.1.105.2"
+        },
+        {
+          "interface": "wan2",
+          "status": "ready",
+          "ip": "10.2.105.2"
+        }
+      ]
+    },
+    {
+      "networkId": "N_106",
+      "serial": "Q2LW-0106-0001",
+      "uplinks": [
+        {
+          "interface": "wan1",
+          "status": "active",
+          "ip": "10.1.106.2"
+        },
+        {
+          "interface": "wan2",
+          "status": "not connected",
+          "ip": null
+        }
+      ]
+    },
+    {
+      "networkId": "N_107",
+      "serial": "Q2LW-0107-0001",
+      "uplinks": [
+        {
+          "interface": "wan1",
+          "status": "active",
+          "ip": "10.1.107.2"
+        },
+        {
+          "interface": "wan2",
+          "status": "ready",
+          "ip": "10.2.107.2"
+        }
+      ]
+    },
+    {
+      "networkId": "N_108",
+      "serial": "Q2LW-0108-0001",
+      "uplinks": [
+        {
+          "interface": "wan1",
+          "status": "active",
+          "ip": "10.1.108.2"
+        },
+        {
+          "interface": "wan2",
+          "status": "ready",
+          "ip": "10.2.108.2"
+        }
+      ]
+    },
+    {
+      "networkId": "N_109",
+      "serial": "Q2LW-0109-0001",
+      "uplinks": [
+        {
+          "interface": "wan1",
+          "status": "active",
+          "ip": "10.1.109.2"
+        },
+        {
+          "interface": "wan2",
+          "status": "ready",
+          "ip": "10.2.109.2"
+        }
+      ]
+    },
+    {
+      "networkId": "N_110",
+      "serial": "Q2LW-0110-0001",
+      "uplinks": [
+        {
+          "interface": "wan1",
+          "status": "active",
+          "ip": "10.1.110.2"
+        },
+        {
+          "interface": "wan2",
+          "status": "ready",
+          "ip": "10.2.110.2"
+        }
+      ]
+    },
+    {
+      "networkId": "N_111",
+      "serial": "Q2LW-0111-0001",
+      "uplinks": [
+        {
+          "interface": "wan1",
+          "status": "active",
+          "ip": "10.1.111.2"
+        },
+        {
+          "interface": "wan2",
+          "status": "ready",
+          "ip": "10.2.111.2"
+        }
+      ]
+    },
+    {
+      "networkId": "N_112",
+      "serial": "Q2LW-0112-0001",
+      "uplinks": [
+        {
+          "interface": "wan1",
+          "status": "active",
+          "ip": "10.1.112.2"
+        },
+        {
+          "interface": "wan2",
+          "status": "ready",
+          "ip": "10.2.112.2"
+        }
+      ]
+    }
+  ],
+  "lossAndLatency": [
+    {
+      "serial": "Q2LW-0101-0001",
+      "networkId": "N_101",
+      "uplink": "wan1",
+      "ip": "10.1.101.2",
+      "timeSeries": []
+    },
+    {
+      "serial": "Q2LW-0102-0001",
+      "networkId": "N_102",
+      "uplink": "wan1",
+      "ip": "10.1.102.2",
+      "timeSeries": []
+    },
+    {
+      "serial": "Q2LW-0102-0001",
+      "networkId": "N_102",
+      "uplink": "wan2",
+      "ip": "10.2.102.2",
+      "timeSeries": [
+        {
+          "ts": "2026-02-10T14:00:00Z",
+          "lossPercent": 0.0,
+          "latencyMs": 33
+        },
+        {
+          "ts": "2026-02-10T14:01:00Z",
+          "lossPercent": 0.0,
+          "latencyMs": 36
+        },
+        {
+          "ts": "2026-02-10T14:02:00Z",
+          "lossPercent": 0.0,
+          "latencyMs": 34
+        },
+        {
+          "ts": "2026-02-10T14:03:00Z",
+          "lossPercent": 0.1,
+          "latencyMs": 35
+        },
+        {
+          "ts": "2026-02-10T14:04:00Z",
+          "lossPercent": 0.0,
+          "latencyMs": 32
+        }
+      ]
+    },
+    {
+      "serial": "Q2LW-0103-0001",
+      "networkId": "N_103",
+      "uplink": "wan1",
+      "ip": "10.1.103.2",
+      "timeSeries": [
+        {
+          "ts": "2026-02-10T14:00:00Z",
+          "lossPercent": 0.0,
+          "latencyMs": 165
+        },
+        {
+          "ts": "2026-02-10T14:01:00Z",
+          "lossPercent": 0.0,
+          "latencyMs": 172
+        },
+        {
+          "ts": "2026-02-10T14:02:00Z",
+          "lossPercent": 0.0,
+          "latencyMs": 180
+        },
+        {
+          "ts": "2026-02-10T14:03:00Z",
+          "lossPercent": 0.0,
+          "latencyMs": 168
+        },
+        {
+          "ts": "2026-02-10T14:04:00Z",
+          "lossPercent": 0.0,
+          "latencyMs": 175
+        }
+      ]
+    },
+    {
+      "serial": "Q2LW-0104-0001",
+      "networkId": "N_104",
+      "uplink": "wan1",
+      "ip": "10.1.104.2",
+      "timeSeries": [
+        {
+          "ts": "2026-02-10T14:00:00Z",
+          "lossPercent": 0.0,
+          "latencyMs": 40
+        },
+        {
+          "ts": "2026-02-10T14:01:00Z",
+          "lossPercent": 0.0,
+          "latencyMs": 42
+        },
+        {
+          "ts": "2026-02-10T14:02:00Z",
+          "lossPercent": 0.5,
+          "latencyMs": 41
+        },
+        {
+          "ts": "2026-02-10T14:03:00Z",
+          "lossPercent": 100.0,
+          "latencyMs": null
+        },
+        {
+          "ts": "2026-02-10T14:04:00Z",
+          "lossPercent": 100.0,
+          "latencyMs": null
+        }
+      ]
+    },
+    {
+      "serial": "Q2LW-0105-0001",
+      "networkId": "N_105",
+      "uplink": "wan1",
+      "ip": "10.1.105.2",
+      "timeSeries": [
+        {
+          "ts": "2026-02-10T14:00:00Z",
+          "lossPercent": 0.0,
+          "latencyMs": 35
+        },
+        {
+          "ts": "2026-02-10T14:01:00Z",
+          "lossPercent": 0.0,
+          "latencyMs": 33
+        },
+        {
+          "ts": "2026-02-10T14:02:00Z",
+          "lossPercent": 0.2,
+          "latencyMs": 210
+        },
+        {
+          "ts": "2026-02-10T14:03:00Z",
+          "lossPercent": 0.0,
+          "latencyMs": 36
+        },
+        {
+          "ts": "2026-02-10T14:04:00Z",
+          "lossPercent": 0.0,
+          "latencyMs": 34
+        }
+      ]
+    },
+    {
+      "serial": "Q2LW-0106-0001",
+      "networkId": "N_106",
+      "uplink": "wan1",
+      "ip": "10.1.106.2",
+      "timeSeries": [
+        {
+          "ts": "2026-02-10T14:00:00Z",
+          "lossPercent": 0.0,
+          "latencyMs": 34
+        },
+        {
+          "ts": "2026-02-10T14:01:00Z",
+          "lossPercent": 0.0,
+          "latencyMs": 31
+        },
+        {
+          "ts": "2026-02-10T14:02:00Z",
+          "lossPercent": 0.1,
+          "latencyMs": 36
+        },
+        {
+          "ts": "2026-02-10T14:03:00Z",
+          "lossPercent": 0.0,
+          "latencyMs": 33
+        },
+        {
+          "ts": "2026-02-10T14:04:00Z",
+          "lossPercent": 0.0,
+          "latencyMs": 35
+        }
+      ]
+    },
+    {
+      "serial": "Q2LW-0107-0001",
+      "networkId": "N_107",
+      "uplink": "wan1",
+      "ip": "10.1.107.2",
+      "timeSeries": [
+        {
+          "ts": "2026-02-10T14:00:00Z",
+          "lossPercent": 0.0,
+          "latencyMs": 37
+        },
+        {
+          "ts": "2026-02-10T14:01:00Z",
+          "lossPercent": 0.1,
+          "latencyMs": 39
+        },
+        {
+          "ts": "2026-02-10T14:02:00Z",
+          "lossPercent": 0.0,
+          "latencyMs": 35
+        },
+        {
+          "ts": "2026-02-10T14:03:00Z",
+          "lossPercent": 0.0,
+          "latencyMs": 38
+        },
+        {
+          "ts": "2026-02-10T14:04:00Z",
+          "lossPercent": 0.2,
+          "latencyMs": 36
+        }
+      ]
+    },
+    {
+      "serial": "Q2LW-0108-0001",
+      "networkId": "N_108",
+      "uplink": "wan1",
+      "ip": "10.1.108.2",
+      "timeSeries": [
+        {
+          "ts": "2026-02-10T14:00:00Z",
+          "lossPercent": 0.0,
+          "latencyMs": 30
+        },
+        {
+          "ts": "2026-02-10T14:01:00Z",
+          "lossPercent": 0.0,
+          "latencyMs": 32
+        },
+        {
+          "ts": "2026-02-10T14:02:00Z",
+          "lossPercent": 0.1,
+          "latencyMs": 31
+        },
+        {
+          "ts": "2026-02-10T14:03:00Z",
+          "lossPercent": 0.0,
+          "latencyMs": 33
+        },
+        {
+          "ts": "2026-02-10T14:04:00Z",
+          "lossPercent": 0.0,
+          "latencyMs": 29
+        }
+      ]
+    },
+    {
+      "serial": "Q2LW-0109-0001",
+      "networkId": "N_109",
+      "uplink": "wan1",
+      "ip": "10.1.109.2",
+      "timeSeries": [
+        {
+          "ts": "2026-02-10T14:00:00Z",
+          "lossPercent": 0.0,
+          "latencyMs": 41
+        },
+        {
+          "ts": "2026-02-10T14:01:00Z",
+          "lossPercent": 0.0,
+          "latencyMs": 39
+        },
+        {
+          "ts": "2026-02-10T14:02:00Z",
+          "lossPercent": 0.1,
+          "latencyMs": 44
+        },
+        {
+          "ts": "2026-02-10T14:03:00Z",
+          "lossPercent": 0.0,
+          "latencyMs": 40
+        },
+        {
+          "ts": "2026-02-10T14:04:00Z",
+          "lossPercent": 0.0,
+          "latencyMs": 42
+        }
+      ]
+    },
+    {
+      "serial": "Q2LW-0110-0001",
+      "networkId": "N_110",
+      "uplink": "wan1",
+      "ip": "10.1.110.2",
+      "timeSeries": [
+        {
+          "ts": "2026-02-10T14:00:00Z",
+          "lossPercent": 0.0,
+          "latencyMs": 28
+        },
+        {
+          "ts": "2026-02-10T14:01:00Z",
+          "lossPercent": 0.0,
+          "latencyMs": 31
+        },
+        {
+          "ts": "2026-02-10T14:02:00Z",
+          "lossPercent": 0.1,
+          "latencyMs": 27
+        },
+        {
+          "ts": "2026-02-10T14:03:00Z",
+          "lossPercent": 0.0,
+          "latencyMs": 30
+        },
+        {
+          "ts": "2026-02-10T14:04:00Z",
+          "lossPercent": 0.0,
+          "latencyMs": 29
+        }
+      ]
+    },
+    {
+      "serial": "Q2LW-0111-0001",
+      "networkId": "N_111",
+      "uplink": "wan1",
+      "ip": "10.1.111.2",
+      "timeSeries": [
+        {
+          "ts": "2026-02-10T14:00:00Z",
+          "lossPercent": 0.0,
+          "latencyMs": 50
+        },
+        {
+          "ts": "2026-02-10T14:01:00Z",
+          "lossPercent": 0.0,
+          "latencyMs": 48
+        },
+        {
+          "ts": "2026-02-10T14:02:00Z",
+          "lossPercent": 0.1,
+          "latencyMs": 52
+        },
+        {
+          "ts": "2026-02-10T14:03:00Z",
+          "lossPercent": 0.0,
+          "latencyMs": 49
+        },
+        {
+          "ts": "2026-02-10T14:04:00Z",
+          "lossPercent": 0.0,
+          "latencyMs": 51
+        }
+      ]
+    },
+    {
+      "serial": "Q2LW-0112-0001",
+      "networkId": "N_112",
+      "uplink": "wan1",
+      "ip": "10.1.112.2",
+      "timeSeries": [
+        {
+          "ts": "2026-02-10T14:00:00Z",
+          "lossPercent": 0.0,
+          "latencyMs": 36
+        },
+        {
+          "ts": "2026-02-10T14:01:00Z",
+          "lossPercent": 0.0,
+          "latencyMs": 34
+        },
+        {
+          "ts": "2026-02-10T14:02:00Z",
+          "lossPercent": 0.1,
+          "latencyMs": 38
+        },
+        {
+          "ts": "2026-02-10T14:03:00Z",
+          "lossPercent": 0.0,
+          "latencyMs": 35
+        },
+        {
+          "ts": "2026-02-10T14:04:00Z",
+          "lossPercent": 0.0,
+          "latencyMs": 37
+        }
+      ]
+    }
+  ]
+}
